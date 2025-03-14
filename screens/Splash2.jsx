@@ -16,7 +16,7 @@ const Splash2 = () => {
         <Button mode="contained" onPress={() => navigation.goBack()} buttonColor="#4B0082" textColor="#FFA500">
           Back
         </Button>
-        <Button mode="contained" onPress={() => navigation.navigate("Home")} buttonColor="#FFA500" textColor="#4B0082">
+        <Button mode="contained" onPress={() => navigation.navigate("SignupScreen")} buttonColor="#FFA500" textColor="#4B0082">
           Next
         </Button>
       </View>
